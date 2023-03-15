@@ -1,0 +1,288 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+
+/* *******************Trân**********************/
+
+.container-menu {
+    width: 1440px;
+    height: 105px;
+}
+
+
+/* ******************Tú********************** */
+
+.container-header {
+    width: 1440px;
+    height: 537px;
+}
+
+.container-logo {
+    width: 1440px;
+    height: 190px;
+}
+
+.container-customer {
+    width: 1440px;
+    height: 737px;
+}
+
+
+/***********************Hảo****************** */
+
+.container-detail {
+    /* width: 100%; */
+    background-color: #282828;
+    color: white;
+    padding: 100px;
+}
+
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    margin: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.17em;
+}
+
+.text h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 56px
+}
+
+.text span {
+    font-weight: bold;
+}
+
+
+/* ************************************* */
+
+.detail-box {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 386.67px);
+    gap: 40px;
+    align-items: start;
+    background: #141414;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+
+}
+
+.data-detail {
+    display: grid;
+    grid-template-columns: 14.5% 85.5%;
+    width: 386.67px;
+    margin-top: 75px;
+    border-right: 1px solid #FFFFFF;
+
+}
+
+
+.detail-boxs {
+    display: grid;
+    justify-content: center;
+    width: 389.33px;
+    height: 360px;
+    float: left;
+    margin-top: 81px;
+    /* Neutral 0 [day] */
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+
+}
+
+.detail-icon {
+    height: 40px;
+}
+
+.detail-title {
+    height: 40px;
+    align-items: center;
+}
+
+.detail-text {
+    grid-column: 1/-1;
+    margin-top: 19px;
+    margin-left: 56px;
+    margin-right: 40px;
+}
+
+.detail-text ul {
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.detail-text ul li a {
+    text-decoration: none;
+    width: 140px;
+    color: #EB553C;
+    line-height: 61px;
+}
+
+.data-detail p {
+    width: 290px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.data-detail a {
+    width: 101px;
+    height: 24px;
+}
+
+
+/* donne detail */
+
+.container-linkApp {
+    width: 100%;
+    /* height: 1156px; */
+    background-color: antiquewhite;
+}
+
+.text-app {
+    /* max-width: 1440px; */
+    text-align: center;
+    align-items: center;
+    padding-top: 100px;
+    color: #2A2A32;
+}
+
+.text-app p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.17em;
+    margin-bottom: 20px;
+}
+
+.text-app h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    margin: 0 279px 0 279px;
+}
+
+.text-app span {
+    font-weight: bold;
+    font-family: 'Manrope';
+    font-style: normal;
+    /* font-weight: 300; */
+    font-size: 46px;
+    line-height: 56px;
+}
+
+
+/* ************************** */
+
+.linkApp-box {
+    display: grid;
+    grid-template-columns: 621px auto;
+}
+
+.App-promotion {
+    background-image: url(image/desktop-texture-thankyou-background@2x\ 1.png);
+}
+
+.button-sileder {
+    height: 54px;
+    width: 54px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: #1EBEA0;
+}
+
+
+/* *********************Khang*************** */
+
+.container-stories {
+    
+    background-color: #FFFFFF;
+    color: 
+    #2A2A32;
+    padding: 100px;
+}
+
+.container-about {
+    width: 1440px;
+    height: 531px;
+}
+
+
+/* ***********************Trân*************** */
+
+.container-contact {
+    width: 1440px;
+    height: 596px;
+}
+
+.container-foodter {
+    width: 1440px;
+    height: 82px;
+}
+
+
+.textx {
+    text-align: center;
+    
+}
+
+.textx p {
+    margin: 20px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.17em;
+    top: 100px;
+}
+
+.textx h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 56px
+}
+
+.textx span {
+    font-weight: bold;
+    color: #1EBEA0
+    ;
+}
